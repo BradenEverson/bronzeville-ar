@@ -1,0 +1,13 @@
+<script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+<script src="https://google-ar.github.io/three.ar.js/dist/three.ar.js"></script>
+<script src="https://rawgit.com/chenzlabs/aframe-ar/827e9db/dist/aframe-ar.min.js"></script>
+<body>
+  <a-scene ar>
+    <a-assets>
+        <a-asset-item id="church-test" src="/models/church.gltf"></a-asset-item>
+    </a-assets>
+    <a-entity gltf-model="#church-test"  gps-entity-place="latitude: 43.049149308881N; longitude: -87.90452272327414W;" position="0 -2 0" scale="2 2 2"></a-entity>
+  </a-scene>
+  <script>
+  </script>
+</body>
